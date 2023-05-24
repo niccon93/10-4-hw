@@ -45,6 +45,14 @@
 *- конфигурационные файлы для bacula-dir, bacula-sd,  bacula-fd,*   
 *- скриншот, подтверждающий успешное прохождение резервного копирования.*
 
+
+[GitHubLink]:https://github.com/niccon93/10-4-hw/blob/main/conf/bacula-dir.conf
+[GitHubLink]:https://github.com/niccon93/10-4-hw/blob/main/conf/bacula-fd.conf
+[GitHubLink]:https://github.com/niccon93/10-4-hw/blob/main/conf/bacula-sd.conf
+
+![img](img/1.1.PNG)
+![img](img/1.2.PNG)
+![img](img/1.3.PNG)
 ---
 
 ### Задание 3
