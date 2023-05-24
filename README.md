@@ -46,9 +46,11 @@
 *- скриншот, подтверждающий успешное прохождение резервного копирования.*
 
 
-[Example document](/conf/bacula-dir.conf)
-[Example document](/conf/bacula-fd.conf)
-[Example document](/conf/bacula-sd.conf)
+[bacula-dir.conf](/conf/bacula-dir.conf)
+
+[bacula-fd.conf](/conf/bacula-fd.conf)
+
+[bacula-sd.conf](/conf/bacula-sd.conf)
 
 ![img](img/1.1.PNG)
 ![img](img/1.2.PNG)
