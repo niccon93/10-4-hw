@@ -46,9 +46,9 @@
 *- скриншот, подтверждающий успешное прохождение резервного копирования.*
 
 
-[GitHubLink]:https://github.com/niccon93/10-4-hw/blob/main/conf/bacula-dir.conf
-[GitHubLink]:https://github.com/niccon93/10-4-hw/blob/main/conf/bacula-fd.conf
-[GitHubLink]:https://github.com/niccon93/10-4-hw/blob/main/conf/bacula-sd.conf
+[Example document](/conf/bacula-dir.conf)
+[Example document](/conf/bacula-fd.conf)
+[Example document](/conf/bacula-sd.conf)
 
 ![img](img/1.1.PNG)
 ![img](img/1.2.PNG)
