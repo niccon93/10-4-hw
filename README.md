@@ -62,18 +62,22 @@
 Установите программное обеспечении Rsync. Настройте синхронизацию на двух нодах. Протестируйте работу сервиса.
 
 *Пришлите рабочую конфигурацию сервера и клиента Rsync блоком кода в вашем md-файле.*
+```
+sudo apt install rsync
+sudo nano /etc/default/rsync # RSYNC_ENABLE=true
+sudo nano /etc/rsyncd.conf # Содержимое файла ниже в блоке кода
+sudo systemctl start rsync.service
+sudo systemctl status rsync.service
+sudo netstat -tulnp |grep rsync # Проверяем работу rsync по сети
+sudo nano /etc/rsyncd.scrt # backup:12345
+sudo chmod 0600 /etc/rsyncd.scrt
+# На второй ноде
+sudo mkdir /root/scripts
+sudo nano /root/scripts/backup-node1.sh # Содержимое файла-скрипта ниже в блоке кода
+chmod 0744 /root/scripts/backup-node1.sh
+sudo nano /etc/rsyncd.scrt # 12345
+sudo chmod 0600 /etc/rsyncd.scrt
+/root/scripts/backup-node1.sh # Тестируем синхронизацию
+```
 
 ---
-
-### Задание со звёздочкой*
-Это задание дополнительное. Его можно не выполнять. На зачёт это не повлияет. Вы можете его выполнить, если хотите глубже разобраться в материале.
-
----
-
-### Задание 4*
-
-Настройте резервное копирование двумя или более методами, используя одну из рассмотренных команд для папки /etc/default. Проверьте резервное копирование.
-
-*Пришлите рабочую конфигурацию выбранного сервиса по поставленной задаче.*
-
-
